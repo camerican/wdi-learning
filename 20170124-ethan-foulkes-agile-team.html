@@ -1,0 +1,1018 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>20170124-ethan-foulkes-agile-team</title></head><body><article class="markdown-body"><h1>
+<a id="user-content-agile-team-training-with-ethan-foulkes" class="anchor" href="#agile-team-training-with-ethan-foulkes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Agile Team Training with Ethan Foulkes</h1>
+
+<p>4:30pm - Tuesday 24th, 2017
+NYCDA New York City, Prospect</p>
+
+<p>Ethan Foulkes heads system development at Camerican (not affiliated with yours truly, <a href="github.com/camerican">github.com/camerican</a>).  Today we'll be talking about how agile processes work and what responsibilities of team members typically are within such teams.</p>
+
+<hr>
+
+<h2>
+<a id="user-content-the-responsive-team" class="anchor" href="#the-responsive-team" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Responsive Team</h2>
+
+<h3>
+<a id="user-content-communication-is-key" class="anchor" href="#communication-is-key" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Communication is Key</h3>
+
+<p>Krystal Kaplan (KK) - Ethan is an amazing partner in crime when it comes to working with our students, conducting workshops, responsive teams. His company has hired a couple graduates, most recently from WDI April and previous cohort from September 2015. Today what we're going to be doing is something a little bit new. At NYCDA we're at the process of revamping our curriculum, we're not only educators abut also learners as well. What we're planning on doing today is learning more about responsive teams and doing more interactive session. And I'll take it away and have Ethan do his thing.</p>
+
+<p>Ethan Foulkes (EF) - Thank you everybody.  This is the first time I've done this. Normally I've come in at the end. Give a little bit of info at the end. This time we're going to come in at the beginning, dive into something a little bit interactive. It'll be a little bit rough and that's okay, we'll iterate and it will get better. Fun to experiment.  Me, I'm the director of IT/ Supply Chain for Gellert Global Group. 7 or 8 companies. Supply Chain for one of those companies. </p>
+
+<p>Fun fact, prior to that my life was for about 8 years a professional poker player. Job transition for me. I did IT way back in the day and then I came over to the business side of things. The one thing I learned from being a professional poker player, don't get me wrong, I was pretty good. Had friends that were much better than me.  I was usually more successful than they were. The reasons you were more successful, you had better bankroll management and better emotional control.  Those are the hidden things. Everybody thanks whoever has the best read, can play the best strategic poker.</p>
+
+<p>What makes the best programmers are communication. It's great if you can code but it you can't communicate with the stakeholders, it's not going to matter.</p>
+
+<p>This is my day.  A lot of people get overwhelmed when they look at my calendar. For me this is super productive, I get all my work done in meetings.</p>
+
+<p>You have to structure a meeting right, talk about the right things and needs to move along in the proper fashion. Otherwise meetings are a waste.  Recently, I found this interesting to included it in the presentation. </p>
+
+<p>What Google Learned Form Its Quest to Build the Perfect Team</p>
+
+<h4>
+<a id="user-content-project-aristotle" class="anchor" href="#project-aristotle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Aristotle</h4>
+
+<h5>
+<a id="user-content-charles-duhigg-feb-252016" class="anchor" href="#charles-duhigg-feb-252016" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Charles Duhigg Feb 25,2016</h5>
+
+<p><a href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">Project Aristotle, NY Times</a></p>
+
+<p>They wanted to know what makes an awesome team and what makes not an awesome team.</p>
+
+<p>They were expecting it to be team composition. All Type As or a mix. All business or friends outside of the workplace. It's not what they found. That they found it was the team dynamics. The way they interacted and how they structured. A few of the key takeaways.  </p>
+
+<p>Norms ar the traditions, behavioral standards, and unwritten rules that govern how we function when we gather.</p>
+
+<p>The right norms raise a group's collective intelligence.</p>
+
+<p>The wrong norms hobble a team, even if, individually, all the members were exceptionally bright.</p>
+
+<p>Good teams spoke in roughly the same proportion, a phenomenon the researchers referred to as "equality in distribution of conversational turn-taking."</p>
+
+<p>Sometimes it could be a group of lots of interruptions. When they measured at the end of the day how much time everyone spent talking, there was an equality there.</p>
+
+<p>Good teams all had high "average social sensitivity" -- skilled at intuiting how others felt based on their tone of voice, their expressions and other nonverbal cues.</p>
+
+<p>They seemed to know when someone was feeling upset or left out.</p>
+
+<p>How do we manufacture these things?</p>
+
+<p>KK - I would just like to make a connection to our last workship with teamwork. A, B, C, D profiles.  Everyone was in a group. Makin the connection for you.</p>
+
+<p>EF - Life of project management and development.  <a href="https://camo.githubusercontent.com/48834397daf4b127841ce5b9d48051a35a8b8fdb/687474703a2f2f6d69636861656c2d77696767696e732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031352f30332f686f772d70726f6a656374732d776f726b2e706e67" target="_blank"><img src="https://camo.githubusercontent.com/48834397daf4b127841ce5b9d48051a35a8b8fdb/687474703a2f2f6d69636861656c2d77696767696e732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031352f30332f686f772d70726f6a656374732d776f726b2e706e67" alt="" data-canonical-src="http://michael-wiggins.com/wp-content/uploads/2015/03/how-projects-work.png" style="max-width:100%;"></a></p>
+
+<p>Good questions and bad questions</p>
+
+<p>Volunteered from our class:</p>
+
+<ul>
+<li>What are some of your interests?</li>
+<li>What are you expectations?</li>
+<li>What are you thinking about this or that?</li>
+<li>What's your favorite way to vacation?</li>
+<li>Are you looking to relax or explore?</li>
+<li>Where do you want to go?</li>
+<li>What's your budget?</li>
+</ul>
+
+<p>Bad questions:</p>
+
+<ul>
+<li>It's up to you.</li>
+</ul>
+
+<p>From the slides:</p>
+
+<h3>
+<a id="user-content-good-questions" class="anchor" href="#good-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Good questions</h3>
+
+<ul>
+<li>What activities do you like?</li>
+<li>What time do you want to get up?</li>
+<li>How much are you comfortable spending?</li>
+<li>What's the best vacation you ever took?</li>
+<li>What's the worst vacation you ever took?</li>
+<li>Do you like to travel?</li>
+<li>Where should we stay?</li>
+<li>Should we ring the kids?</li>
+</ul>
+
+<p>Bad</p>
+
+<p>How many vacation days do you have?
+When should we go?
+Who's going to book the tickets?
+Who will pay for it?</p>
+
+<h3>
+<a id="user-content-waterfall-vs-agile" class="anchor" href="#waterfall-vs-agile" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Waterfall vs Agile</h3>
+
+<p>Waterfall is what we used to do Agile is what we do now, but we're not all there yet.  Each person in agile will be on different areas of that spectrum.</p>
+
+<p>Waterfall is making a plan and then saying there's the golden plan, now go forth and do it. When you're done, give me the finished results. Waterfall has its roots in manufacturing. You have a lot of fixed costs, not going to change things after it's done. That's the roots.</p>
+
+<p>When we started software development, that was the methodology we had.  This is the end result of waterfall, we're supposed to be here, but we're here. Any bandaid we need.</p>
+
+<p>What is agile.  This is parkour or free running.  You can lose half a day on YouTube watching these guys .  Controlled figuring it out as you go.</p>
+
+<p>Agile Manifesto.</p>
+
+<p>"Waterfall stuff sucks, let's make a manifesto because manifestos are badass"</p>
+
+<p>Take aways</p>
+
+<ul>
+<li>Individuals and interactions over processes and tools</li>
+<li>Working software over Compressive Documentation</li>
+<li>Customer collaboration over Contract Negotiation</li>
+<li>Responding to change over following a plan</li>
+</ul>
+
+<p>Agile Development</p>
+
+<p>"Software is eating the world."</p>
+
+<ul>
+<li>Flatter organizations</li>
+<li>self-organizing, responsive teams</li>
+<li>short feedback loops</li>
+<li>inspect, adapt, and iterate</li>
+<li>continuous improvement</li>
+<li>high visibility + transparent communication</li>
+</ul>
+
+<h4>
+<a id="user-content-responsive-teams" class="anchor" href="#responsive-teams" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Responsive Teams</h4>
+
+<ul>
+<li>Dynamic, ad hoc formation of teams and roles</li>
+<li>Easy and fast access to the right data and information</li>
+<li>Having the right tools
+
+<ul>
+<li>Communication</li>
+<li>Project Management (visibility)</li>
+<li>Project Documentation</li>
+</ul>
+</li>
+<li>Fewer meetings</li>
+<li>Predictable delivery</li>
+</ul>
+
+<hr>
+
+<h3>
+<a id="user-content-atlassian-tools" class="anchor" href="#atlassian-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Atlassian Tools</h3>
+
+<ul>
+<li>HipChat (communication)</li>
+<li>JIRA (issues tracking)</li>
+<li>Confluence (documentation)</li>
+</ul>
+
+<hr>
+
+<h4>
+<a id="user-content-scrum-vs-kanban" class="anchor" href="#scrum-vs-kanban" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scrum vs. Kanban</h4>
+
+<h4>
+<a id="user-content-scrum" class="anchor" href="#scrum" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scrum</h4>
+
+<ul>
+<li>Sprint Planning</li>
+<li>Daily Standup</li>
+<li>Sprint Review</li>
+<li>Retrospective</li>
+</ul>
+
+<h4>
+<a id="user-content-kanban" class="anchor" href="#kanban" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kanban</h4>
+
+<ul>
+<li>Lean Manufacturing</li>
+<li>Constant Flow</li>
+<li>No Backlog</li>
+</ul>
+
+<hr>
+
+<h3>
+<a id="user-content-sprint-planning" class="anchor" href="#sprint-planning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sprint Planning</h3>
+
+<ul>
+<li>Planning
+
+<ul>
+<li>Start of the sprint</li>
+<li>Discussing tradeoffs</li>
+<li>Time and energy is finite</li>
+<li>Spring "Commitment" (Story Points)</li>
+<li>Backlog Grooming</li>
+</ul>
+</li>
+<li>Predicable delivery</li>
+<li>Mutual agreement of work</li>
+<li>Visible to everyone</li>
+</ul>
+
+<hr>
+
+<h3>
+<a id="user-content-daily-standup" class="anchor" href="#daily-standup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Daily Standup</h3>
+
+<p>The Daily Standup</p>
+
+<ul>
+<li>What did you work on yesterday?</li>
+<li>What are you going to work on today?</li>
+<li><p>Is there anything blocking or slowing you down?</p></li>
+<li><p>Identify blockers</p></li>
+<li>15 minutes only</li>
+<li>Creates accountability</li>
+</ul>
+
+<hr>
+
+<h3>
+<a id="user-content-spring-review--retrospective" class="anchor" href="#spring-review--retrospective" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Spring Review &amp; Retrospective</h3>
+
+<ul>
+<li>
+<p>Review</p>
+
+<ul>
+<li>Invite Stakeholders</li>
+<li>Review Acceptance Criteria</li>
+<li>Demo</li>
+</ul>
+</li>
+<li>
+<p>Retrospective</p>
+
+<ul>
+<li>What worked well?</li>
+<li>What didn't work well?</li>
+<li>How can we improve?</li>
+<li>Happiness (Happy/Unhappy)</li>
+</ul>
+</li>
+<li><p>End of sprint</p></li>
+<li>Surfaces tensions and problems early</li>
+<li>Inspect, adapt, iterate</li>
+<li>Collaboration and experimentation</li>
+</ul>
+
+<p>How will we know we're done?  User will make a choice through a dropdown or through a multiselect. It will have green yellow and red colors for status.  I will have my definition of done. Does it meet all these criteria   That's our sprint review.   We'd then kick out the stakeholders and do our internal review. Talk about what went well, what didn't go so well.</p>
+
+<hr>
+
+<p>This is in Confluence and we'll make a page or each retrospective. Add everyone's name on the left, give a happiness score. Don't want my answer to influence you.  Going to hold up fingers.  </p>
+
+<h3>
+<a id="user-content-burndown-chart" class="anchor" href="#burndown-chart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Burndown Chart</h3>
+
+<p>Track progress, completing items that are weighted by points.  As we continue, progress should be a constant.  Sudden movements in progress is a sign that blockers are not being identified.</p>
+
+<hr>
+
+<p>Correlation between point reporting and happiness.</p>
+
+<p><a href="https://camo.githubusercontent.com/cd75361d5c02cb66651899d7a819e9c81c1eadde/68747470733a2f2f696d616765732d6e612e73736c2d696d616765732d616d617a6f6e2e636f6d2f696d616765732f492f35314e7364656e674e454c2e6a7067" target="_blank"><img src="https://camo.githubusercontent.com/cd75361d5c02cb66651899d7a819e9c81c1eadde/68747470733a2f2f696d616765732d6e612e73736c2d696d616765732d616d617a6f6e2e636f6d2f696d616765732f492f35314e7364656e674e454c2e6a7067" alt="" data-canonical-src="https://images-na.ssl-images-amazon.com/images/I/51NsdengNEL.jpg" style="max-width:100%;"></a></p>
+
+<p><a href="https://www.amazon.com/dp/B00JI54HCU">Scrum the art of doing twice the work in half the time</a> by Jeff Sutherland</p>
+
+<hr>
+
+<h3>
+<a id="user-content-collaborations-for-resolving-blockers" class="anchor" href="#collaborations-for-resolving-blockers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collaborations for Resolving Blockers</h3>
+
+<p>Robert &amp; Joel</p>
+
+<p>Hak &amp; James</p>
+
+<p>Jarvis &amp; Robert</p>
+
+<p>Eric &amp; Alfe</p>
+</article></body></html>
